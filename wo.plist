@@ -29,9 +29,9 @@
 <key>metadata</key>
 <dict>
 <key>bundle-identifier</key>
-<string>AppCan11642305</string>
+<string>com.apple.compilers.llvm.clang.1_0</string>
 <key>bundle-version</key>
-<string>1.0.1</string>
+<string>6.0</string>
 <key>kind</key>
 <string>software</string>
 <key>title</key>
