@@ -5,9 +5,20 @@
     <title>ios-download</title>
     <meta http-equiv="Content-Type" content="text/HTML; charset=utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+   <style>
+     #d{
+       width:200px;
+       height:200px;
+       display: block;
+       margin:0 auto;
+       text-align: center;
+     }
+   </style>
 <script type="text/javascript">
-function doLocation(url)
+
+function doLocation()
 {
+  var url='itms-services:///?action=download-manifest&url=https://lupp12345.github.io/iosxz/wo.plist';
   var a = document.createElement("a");
   if(!a.click) {
     window.location = url;
@@ -21,8 +32,11 @@ function doLocation(url)
 </script>
   </head>
   <body> 
-<script type="text/javascript">
-doLocation('itms-services:///?action=download-manifest&url=https://lupp12345.github.io/iosxz/wo.plist');
-</script>
+  <div id="d">
+   <img src="xz.png" style="width: 60px;height: 60px;margin-top: 30px;">
+   <div  style="border: 1px solid blue;width: 150px;height: 50px;margin-top: 10px;background: blue;border-radius:33px;margin-left: 23px;" onclick="doLocation()">
+     <div style="margin-top: 14px;color: #fff;font-size: 14px;">点击下载</div>
+   </div>
+  </div>
   </body>
 </html>
